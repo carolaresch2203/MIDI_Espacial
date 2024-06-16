@@ -1,3 +1,11 @@
+:root {
+    --gris: #aaa;
+    --rojo: #e93d50;
+    --rojo-oscuro: #af303f;
+    --blanco: #fff;
+    --luz: rgb(229, 255, 0);
+  }
+
 body {
     align-items: center;
     /*azul celeste */ 
@@ -77,8 +85,8 @@ h1 {
 
 footer {
     text-align: center;
-    background-color: #cccccc;
-    color: white;
+    background-color: var(--gris);
+    color: var(--blanco);
     bottom: 0;
     width: 100%;
     position: fixed;
